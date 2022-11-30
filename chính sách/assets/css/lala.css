@@ -1,0 +1,125 @@
+.shopify-policy__title h1, .page-title {
+    
+    font-weight: 40;
+    font-size: 30px;
+    position: relative;
+    
+    text-align: center;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+
+}
+
+tbody, button, input, select, texttarea{
+    text-align: center;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    font-size: 13px;
+    line-height: 1.4;
+
+
+}
+h1, h2, h3, h4, h5, h6 {
+   
+    font-weight: 400;
+    line-height: 1.1;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    color: #111;
+    letter-spacing: .02em;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+:root {
+    --lh-font-family: "Work Sans" !important;
+    --lh-title-font-family: "Work Sans" !important;
+    --lh-font-size: 17px !important;
+    --lh-color: #000000 !important;
+    --lh-color-rgb: 0, 0, 0 !important;
+}
+b, strong {
+    font-weight: 700;
+}
+style attribute {
+    text-align: center;
+}
+.rte {
+    color: #333;
+    margin-bottom: 20px;
+}
+element.style {
+    text-align: center;
+}
+div {
+    display: block;
+}
+p {
+    margin: 0 0 15px;
+}
+p {
+    display: block;
+    font-size: 15px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+strong{
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+    .note2  {
+        text-align: center;
+        font-size: 15px;
+        
+    }
+    @media (min-width: 740px) and (max-width: 1023px) {
+     .note2{
+         margin: auto;
+         max-width: 460px;
+        
+     }
+    }
+    @media (max-width: 740px){
+      .note2{
+          margin: auto;
+          max-width: 460px;
+      }
+        
+    }
+  tbody{
+    margin: 0;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+  }

@@ -1,0 +1,312 @@
+
+.contact-template .contact-frm textarea{
+    margin-bottom: 20px;
+}
+.contact-template .form-vertical textarea {
+    height: 120px;
+}
+.form-vertical textarea {
+    display: block;
+    width: 70%;
+    margin:  auto;
+    margin-bottom: 20px;
+    
+}
+input, textarea, select, button {
+    font-size: 62.5%;
+    /*Hack: 1rem=10px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    /*sans-serif chữ ko có đuôi */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+@media only screen and (max-width: 1024px){
+input, textarea, select, button {
+    font-size: 13px;
+}
+textarea {
+    min-height: 100px;
+}
+}
+[role=button], a, button, input, label, select, textarea {
+    touch-action: manipulation;
+}
+textarea {
+    overflow: auto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.contact-template .contact-frm input {
+    margin-bottom: 20px;
+}
+.form-vertical .btn, .form-vertical [type=submit] {
+    display: inline-block;
+    width: 70%;
+}
+.form-vertical input{
+    display: block;
+    width: 70%;
+    margin: auto; 
+    margin-bottom: 20px; 
+    border: none;
+    border-bottom: 1px solid rgba(22, 21, 21, 0.2);
+    padding: 0;
+}
+
+
+input[type=submit] {
+    cursor: pointer;
+}
+.form {
+    text-align: center;
+    display: block;
+    margin-top: 0em;
+    
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.btn-login{
+    text-align: center;
+}
+
+
+button{
+  
+display: block;
+margin: auto;
+
+
+}
+.button{
+    text-align: center;
+}
+
+
+input:focus{
+    outline: none;
+}
+.form-login-forgot{
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 9px 28px;
+    background-color: #111;
+    border: 2px solid #111111;
+    color: white;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+
+}
+.form-btn-forgot:hover{
+    background-color: #fff;
+    color: #111;
+    cursor: pointer;
+}
+
+.form-login-forgot a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin: auto;
+}
+
+.form-login-forgot a:hover{
+    color: rgb(177, 68, 68);
+    text-decoration: none;
+   
+}
+@media (max-width: 740px){
+    .form{
+        margin: auto;
+        max-width: 460px;
+        font-size: 20px;
+        width: 100%;
+        
+    }
+    .form{
+        margin: auto;
+        max-width: 460px;
+        font-size: 20px;
+        width: 100%;
+
+
+
+    }
+}    
+@media (min-width: 740px) and (max-width: 1023px) {
+    .form{
+        margin-left: 10px;
+        min-width: 360px;
+        font-size: 20px;
+        display: block;
+        width: 100%;
+    }
+    .form{
+        margin-right: 10px;
+        min-width: 360px;
+        font-size: 20px;
+        width: 100%;
+    }
+    .row{
+        min-width: 800px;
+        margin-left: -40px;
+        font-size: 20px;
+    }
+}
+  
+.btn-login{
+    text-align: center;
+}
+.form-btn-login,.btn-register,.form-btn-forgot{
+    
+    margin-bottom: 14px;
+    font-weight: 400;
+    
+   
+    background-color: #111;
+    border: 2px solid #111111;
+    color: white;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+    
+   
+}
+input:focus{
+    outline: none;
+}
+.form-login-forgot{
+    text-align: center;
+
+}
+
+.form-btn-login:hover,.btn-register:hover,.form-btn-forgot:hover{
+    background-color: #fff;
+    color: #111;
+    cursor: pointer;
+}
+
+.form-login-forgot a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin: auto;
+}
+
+.form-login-forgot a:hover{
+    color: rgb(177, 68, 68);
+    text-decoration: none;
+    
+}
+  
+  .message-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+  form{
+    font-size: 20px;
+    display: block;
+    margin:  auto;
+    padding: 0;
+  }
+
+
+tbody{
+    color: #333;
+    font-size: 13px;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    margin: auto;
+    display: block;
+}
+tbody, button, input, select, texttarea{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    /*Hack: 1rem=10px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    /*sans-serif chữ ko có đuôi */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+
+}
+.dbox .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #2553b8;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+@media (min-width: 768px){}
+.dbox {
+    margin-bottom: 0;
+    padding: 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+
+    /*Hack: 1rem=10px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    /*sans-serif chữ ko có đuôi */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.dbox .icon span {
+    font-size: 20px;
+    color: #fff;
+}
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.form-field{
+    margin: auto;
+}
